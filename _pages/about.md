@@ -19,26 +19,45 @@ redirect_from:
 
 Laixin is currently pursuing Ph.D. degree (supervised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/)) at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/), ShanghaiTech University.
 
-My research interests span **Social Network in Game** and **VIS4HPC** (addressing HPC challengs via visual analytics approach). I design and implement visual analytics systems, deep learning algorithms (GNN, temporal models, interpretability methods), and empirical studies aimed at enhancing AI's ability to serve human needs.
+My research interests span **Social Network in Game** and **VIS4HPC** (addressing HPC challengs via visual analytics approach). I design and implement visual analytics systems, deep learning algorithms (GNN, temporal models, interpretability methods), and empirical studies aimed at enhancing AI's ability to serve human needs. Additionally, I also contribute multiple codes to the SGLang community.
 
 **I am currently on the job market. If you have any relevant positions or opportunities, please feel free to reach out to me via email.**
 
 # 🔥 News
+- *2025.3*: &nbsp;🎉🎉 A conference paper **Influence Maximization in Temporal Social Networks with a Cold-start Problem:
+A Supervised Approach** is accepted by ICWSM'25.
+- *2024.10*: &nbsp;🎉🎉 A journal paper [Deciphering Explicit and Implicit Features for Reliable, Interpretable, and Actionable User Churn Prediction in Online Video Games](https://ieeexplore.ieee.org/abstract/document/10738201) is accepted by TVCG'24.
 - *2023.07*: &nbsp;🎉🎉 A poster [**Understanding Auto-Scheduling Optimizations for Model Deployment via Visualizations**](https://arxiv.org/abs/2308.04724) is accepted by VIS'23.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2022</div><img src='images/chi22.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICWSM 2025</div><img src='images/icwsm25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[RoleSeer: Understanding Informal Social Role Changes in MMORPGs via Visual Analytics](https://dl.acm.org/doi/abs/10.1145/3491102.3517712)
+Influence Maximization in Temporal Social Networks with a Cold-start Problem: A Supervised Approach
 
-**Laixin Xie**, Ziming Wu, Peng Xu, Wei Li, Xiaojuan Ma, Quan Li
+**Laixin Xie**, Ying Zhang, Xiyuan Wang, Shiyi Liu, Shenghan Gao,
+Xingxing Xing, Wei Wan, Haipeng Zhang,Quan Li
 
-[**Video**](https://www.youtube.com/watch?v=gJBLNBJDSio) ｜ [**Arxiv**](https://arxiv.org/abs/2210.10698) <strong><span class='show_paper_citations' data='AB_U2BoAAAAJ:d1gkVwhDpl0C'></span></strong>
-- Researched on the informal social role in MMORPGs, cooperating with Tencent and Netease.
-- Developed an adapted **dynamic network embedding** method to identify the potential informal roles from the perspective of behavioral interaction analysis
-- Proposed a visual analytics system named RoleSeer to investigate the **informal roles** from the perspectives of behavioral interactions and depict their dynamic interconversions and transitions. 
+Arxiv | [**Github**](https://github.com/laixinn/ICWSM25-Influence-Maximization)
+-  Researched on the cold-start problem in Influence Maximization (IM), cooperating with NetEase.
+- Proposed a efficient labeling for the IM seeds, a solution for the cold-start issue and a tensorized TGN for acceleration.
+- Employed an online A/B testing in expanding network scale for evaluation.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/tvcg25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Deciphering Explicit and Implicit Features for Reliable, Interpretable, and Actionable User Churn Prediction in Online Video Games](https://ieeexplore.ieee.org/abstract/document/10738201)
+
+Xiyuan Wang* , **Laixin Xie\*** , He Wang , Xingxing Xing , Wei Wan ,
+Ziming Wu , Xiaojuan Ma , and Quan Li (*: equal contribution)
+
+<!-- [**Video**](https://youtu.be/LyN8CXInM5g) | [**Arxiv**](https://arxiv.org/abs/2309.09744) | [**Github**](https://github.com/laixinn/CIVis) <strong><span class='show_paper_citations' data='AB_U2BoAAAAJ:u-x6o8ySG0sC'></span></strong> -->
+Video | [**Github**](https://github.com/Horanny/DontGo-Framework)
+- Researched on the practical player churn prediction, cooperating with NetEase.
+- Developed a visual analytic system, Don'tgo to conduct a what-if analysis on the root causes of player churn and to propose actionable interventions to mitigate it.
 </div>
 </div>
 
@@ -49,10 +68,24 @@ My research interests span **Social Network in Game** and **VIS4HPC** (addressin
 
 **Laixin Xie**, Yang Ouyang, Longfei Chen, Ziming Wu, Quan Li
 
-[**Video**](https://youtu.be/LyN8CXInM5g) | [**Arxiv**](https://arxiv.org/abs/2309.09744) | [**Github**](https://github.com/laixinn/CIVis) <strong><span class='show_paper_citations' data='AB_U2BoAAAAJ:u-x6o8ySG0sC'></span></strong>
+[**Video**](https://youtu.be/LyN8CXInM5g) | [**Arxiv**](https://arxiv.org/abs/2309.09744) | [**Github**](https://github.com/laixinn/CIVis)
 - Researched how to leverage **contrastive learning** to address **missing data**, cooperating with Tencent.
 - Proposed a contrastive learning-based framework, allowing label prediction with the presence of data missing and without any imputation. 
 - Further developedd a visual analytics system, CIVis to **understand** the training process of contrastive learning and iterative refinement.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CHI 2022</div><img src='images/chi22.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RoleSeer: Understanding Informal Social Role Changes in MMORPGs via Visual Analytics](https://dl.acm.org/doi/abs/10.1145/3491102.3517712)
+
+**Laixin Xie**, Ziming Wu, Peng Xu, Wei Li, Xiaojuan Ma, Quan Li
+
+[**Video**](https://www.youtube.com/watch?v=gJBLNBJDSio) ｜ [**Arxiv**](https://arxiv.org/abs/2210.10698)
+- Researched on the informal social role in MMORPGs, cooperating with Tencent and Netease.
+- Developed an adapted **dynamic network embedding** method to identify the potential informal roles from the perspective of behavioral interaction analysis
+- Proposed a visual analytics system named RoleSeer to investigate the **informal roles** from the perspectives of behavioral interactions and depict their dynamic interconversions and transitions. 
 </div>
 </div>
 
@@ -77,6 +110,7 @@ My research interests span **Social Network in Game** and **VIS4HPC** (addressin
 --->
 
 # 💻 Internships
-- *2021.12 - 2022.6*, Interactive Entertainment Group (IEG) in Tencent (Supervised by [Ziming Wu](https://scholar.google.com/citations?user=gDsBVKAAAAAJ)), Shenzhen
+- *2024.12 - present*, Machine Learning Engineer in Meituan, Beijing
+- *2023.09 - 2024.03*, Hong Kong University of Science and Technology (HKUST), Supervised by [Xiaojuan Ma](https://www.cse.ust.hk/~mxj/), Hong Kong
 - *2022.11 - 2023.9*, User eXperience (UX) in Netease, Shanghai
-- *2023.09 - present*, Hong Kong University of Science and Technology (HKUST), Supervised by [Xiaojuan Ma](https://www.cse.ust.hk/~mxj/), Hong Kong
+- *2021.12 - 2022.6*, Interactive Entertainment Group (IEG) in Tencent (Supervised by [Ziming Wu](https://scholar.google.com/citations?user=gDsBVKAAAAAJ)), Shenzhen
