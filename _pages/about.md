@@ -39,7 +39,7 @@ Influence Maximization in Temporal Social Networks with a Cold-start Problem: A 
 **Laixin Xie**, Ying Zhang, Xiyuan Wang, Shiyi Liu, Shenghan Gao,
 Xingxing Xing, Wei Wan, Haipeng Zhang,Quan Li
 
-Arxiv | [**Github**](https://github.com/laixinn/ICWSM25-Influence-Maximization)
+[**Arxiv**](https://arxiv.org/pdf/2504.11245) | [**Github**](https://github.com/laixinn/ICWSM25-Influence-Maximization)
 -  Researched on the cold-start problem in Influence Maximization (IM), cooperating with NetEase.
 - Proposed a efficient labeling for the IM seeds, a solution for the cold-start issue and a tensorized TGN for acceleration.
 - Employed an online A/B testing in expanding network scale for evaluation.
